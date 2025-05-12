@@ -36,6 +36,12 @@ Install dependencies:
 
     pip install pytorch==2.4.1 biopython==1.85 pandas fair-esm==2.0.0 huggingface_hub==0.30.2
 
+Install dependancies using Conda installer: 
+
+.. code-block:: sh
+
+    conda install pytorch==2.4.1 biopython==1.85 pandas fair-esm==2.0.0 huggingface_hub==0.30.2
+
 Clone this repository:
 
 .. code-block:: sh
