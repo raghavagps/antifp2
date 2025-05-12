@@ -40,7 +40,7 @@ Clone this repository:
 
 .. code-block:: bash
 
-    git clone https://github.com/YOUR_USERNAME/antifp2.git
+    git clone https://github.com/patrik-ackerman/antifp2.git
     cd antifp2
 
 (Optional) Create a virtual environment:
@@ -58,7 +58,7 @@ Scripts and Usage
 
 .. code-block:: bash
 
-    python predict_esm2.py --fasta input.fasta --output esm2_results.csv
+    python antifp2_ESM2_pred.py --fasta input.fasta --output esm2_results.csv
 
 **Arguments:**
 
@@ -78,14 +78,14 @@ A CSV file with the following columns:
 
 .. code-block:: bash
 
-    python predict_esm2.py --help
+    python antifp2_ESM2_pred.py --help
 
 2. ESM2 + BLAST + MERCI Prediction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
-    python predict_esm2_blast_merci.py \
+    python ESM2_BLAST_MOTIF_CMD.py\
         --fasta input.fasta \
         --output combo_results.csv \
         --blast blast_results.tsv \
@@ -120,7 +120,7 @@ A CSV file with the following columns:
 
 .. code-block:: bash
 
-    python predict_esm2_blast_merci.py --help
+    python ESM2_BLAST_MOTIF_CMD.py --help
 
 3. MetaPipeline: Prokka + ESM2 Prediction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
