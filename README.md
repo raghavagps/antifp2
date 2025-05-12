@@ -1,6 +1,6 @@
-======================================================
-AntiFP2 : Antifungal Protein Prediction Model
-======================================================
+======================================
+AntiFP2 : Antifungal Protein Prediction Model 
+======================================
 
 This toolkit uses a fine-tuned ESM2 model to classify protein sequences, with optional integration of BLAST and MERCI motif scanning. It provides two standalone prediction scripts:
 
