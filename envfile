@@ -1,0 +1,8 @@
+# Path information for BLAST and MERCI commands
+# Users can modify these paths according to their system setup
+
+BLAST:/home/pratik/miniforge3/envs/antifungal/bin/blastp
+BLAST database:/home/pratik/PHD/antifungal/antifp2/blast_db/antifp2_blast_db
+MERCI:/home/pratik/PHD/antifungal/MERCI/MERCI_motif_locator.pl
+MERCI motif file:/home/pratik/PHD/antifungal/antifp2/MERCI/antifp2_positive_k8_fp10_KR
+
