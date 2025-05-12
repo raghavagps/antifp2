@@ -14,7 +14,7 @@ This toolkit uses a fine-tuned ESM2 model to classify protein sequences, with op
     :scale: 100%
     :target: https://huggingface.co/raghavagps-group/antifp2
 
-.. |license| image:: https://img.shields.io/badge/license-MIT-green.svg
+.. |license| image:: https://img.shields.io/badge/license-GPL3.0-green.svg
     :alt: License
     :scale: 100%
     :target: https://opensource.org/licenses/MIT
