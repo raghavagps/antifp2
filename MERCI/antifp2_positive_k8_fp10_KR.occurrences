@@ -1,0 +1,860 @@
+MOTIF:  aliphatic K C aliphatic
+******
+>DRAMP00562_1
+ (sequence 9)
+    start position(s): 43
+    motif(s): GKCI
+>DRAMP00664_1
+ (sequence 18)
+    start position(s): 17
+    motif(s): GKCG
+>11401_1
+ (sequence 21)
+    start position(s): 2
+    motif(s): VKCG
+>DRAMP00729_1
+ (sequence 29)
+    start position(s): 67
+    motif(s): GKCI
+>DRAMP00487_1
+ (sequence 42)
+    start position(s): 30
+    motif(s): GKCI
+>P43082_1
+ (sequence 52)
+    start position(s): 133
+    motif(s): GKCL
+>DRAMP00718_1
+ (sequence 55)
+    start position(s): 58
+    motif(s): GKCV
+>DRAMP00499_1
+ (sequence 56)
+    start position(s): 24
+    motif(s): GKCA
+>A0A0B4JDK1_1
+ (sequence 66)
+    start position(s): 102
+    motif(s): AKCG
+>DRAMP00663_1
+ (sequence 94)
+    start position(s): 14
+    motif(s): GKCG
+>DRAMP00495_1
+ (sequence 122)
+    start position(s): 37
+    motif(s): GKCL
+>P0DUJ6_1
+ (sequence 178)
+    start position(s): 100
+    motif(s): LKCL
+>AP02095_1
+ (sequence 188)
+    start position(s): 45
+    motif(s): IKCL
+>DRAMP00535_1
+ (sequence 189)
+    start position(s): 22
+    motif(s): AKCL
+>DRAMP00539_1
+ (sequence 200)
+    start position(s): 30
+    motif(s): GKCL
+>DRAMP00674_1
+ (sequence 204)
+    start position(s): 15
+    motif(s): GKCG
+>DRAMP00590_1
+ (sequence 210)
+    start position(s): 24
+    motif(s): GKCV
+>DRAMP00558_1
+ (sequence 228)
+    start position(s): 28
+    motif(s): LKCI
+>DRAMP00497_1
+ (sequence 232)
+    start position(s): 45
+    motif(s): GKCV
+>DRAMP00689_1
+ (sequence 242)
+    start position(s): 16
+    motif(s): VKCG
+>DRAMP00716_1
+ (sequence 257)
+    start position(s): 24
+    motif(s): GKCV
+>A0A7M7H308_1
+ (sequence 268)
+    start position(s): 88
+    motif(s): VKCG
+>DRAMP00670_1
+ (sequence 272)
+    start position(s): 15
+    motif(s): AKCG
+>DRAMP00492_1
+ (sequence 286)
+    start position(s): 21
+    motif(s): GKCL
+>DRAMP00591_1
+ (sequence 295)
+    start position(s): 19
+    motif(s): GKCI
+>DRAMP00665_1
+ (sequence 317)
+    start position(s): 13
+    motif(s): GKCG
+>DRAMP00508_1
+ (sequence 319)
+    start position(s): 42
+    motif(s): AKCG
+>DRAMP00632_1
+ (sequence 360)
+    start position(s): 52
+    motif(s): VKCL
+28 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+MOTIF:  G neutral C aliphatic
+******
+>E1UYT9_1
+ (sequence 91)
+    start position(s): 27 104
+    motif(s): GQCG GSCL
+>DRAMP00522_1
+ (sequence 99)
+    start position(s): 44
+    motif(s): GSCL
+>P85213_1
+ (sequence 119)
+    start position(s): 34
+    motif(s): GSCV
+>DRAMP00485_1
+ (sequence 123)
+    start position(s): 37
+    motif(s): GTCL
+>AP02694_1
+ (sequence 133)
+    start position(s): 46
+    motif(s): GQCG
+>U4N938_1
+ (sequence 139)
+    start position(s): 33
+    motif(s): GQCL
+>DRAMP00440_1
+ (sequence 143)
+    start position(s): 23
+    motif(s): GTCL
+>Q28880_1
+ (sequence 147)
+    start position(s): 51
+    motif(s): GTCL
+>DRAMP00698_1
+ (sequence 153)
+    start position(s): 63
+    motif(s): GTCL
+>AP02095_1
+ (sequence 188)
+    start position(s): 69
+    motif(s): GQCL
+>CAMPSQ4602_1
+ (sequence 191)
+    start position(s): 51
+    motif(s): GSCG
+>DRAMP00621_1
+ (sequence 194)
+    start position(s): 34
+    motif(s): GTCG
+>AP02520_1
+ (sequence 215)
+    start position(s): 2
+    motif(s): GSCV
+>5792_1
+ (sequence 229)
+    start position(s): 43
+    motif(s): GNCI
+>DRAMP00503_1
+ (sequence 256)
+    start position(s): 39
+    motif(s): GQCG
+>DRAMP00492_1
+ (sequence 286)
+    start position(s): 35
+    motif(s): GSCI
+>DRAMP00524_1
+ (sequence 303)
+    start position(s): 37
+    motif(s): GSCV
+>DRAMP00682_1
+ (sequence 308)
+    start position(s): 24
+    motif(s): GSCG
+>DRAMP00512_1
+ (sequence 315)
+    start position(s): 48
+    motif(s): GNCI
+>DRAMP00508_1
+ (sequence 319)
+    start position(s): 33
+    motif(s): GSCV
+>Q9FIW1_1
+ (sequence 320)
+    start position(s): 44
+    motif(s): GSCG
+>A0A8K1YTT9_1
+ (sequence 324)
+    start position(s): 39
+    motif(s): GNCV
+>DRAMP00610_1
+ (sequence 359)
+    start position(s): 31
+    motif(s): GSCI
+23 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+MOTIF:  basic C sulfur sulfur
+******
+>6332_1
+ (sequence 26)
+    start position(s): 19
+    motif(s): RCMC
+>DRAMP00710_1
+ (sequence 32)
+    start position(s): 40
+    motif(s): KCCC
+>DRAMP00499_1
+ (sequence 56)
+    start position(s): 49
+    motif(s): KCCC
+>DRAMP00510_1
+ (sequence 86)
+    start position(s): 46
+    motif(s): RCCC
+>DRAMP00553_1
+ (sequence 97)
+    start position(s): 55
+    motif(s): KCCC
+>DRAMP00522_1
+ (sequence 99)
+    start position(s): 66
+    motif(s): RCCC
+>AP03107_1
+ (sequence 136)
+    start position(s): 131
+    motif(s): KCCC
+>DRAMP00563_1
+ (sequence 146)
+    start position(s): 54
+    motif(s): HCCC
+>DRAMP00541_1
+ (sequence 155)
+    start position(s): 43
+    motif(s): RCCC
+>B2MW54_1
+ (sequence 160)
+    start position(s): 62
+    motif(s): RCMC
+>DRAMP00550_1
+ (sequence 161)
+    start position(s): 51
+    motif(s): RCCC
+>AP02095_1
+ (sequence 188)
+    start position(s): 91
+    motif(s): KCCM
+>DRAMP00505_1
+ (sequence 198)
+    start position(s): 50
+    motif(s): HCCC
+>DRAMP00552_1
+ (sequence 217)
+    start position(s): 57
+    motif(s): KCCC
+>DRAMP00587_1
+ (sequence 238)
+    start position(s): 45
+    motif(s): KCMC
+>DRAMP00503_1
+ (sequence 256)
+    start position(s): 51
+    motif(s): KCCC
+>DRAMP00565_1
+ (sequence 271)
+    start position(s): 53
+    motif(s): HCCC
+>DRAMP00561_1
+ (sequence 313)
+    start position(s): 53
+    motif(s): KCCC
+>DRAMP00512_1
+ (sequence 315)
+    start position(s): 54
+    motif(s): RCCC
+>DRAMP00526_1
+ (sequence 368)
+    start position(s): 56
+    motif(s): KCCC
+20 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+MOTIF:  basic C sulfur C
+******
+>6332_1
+ (sequence 26)
+    start position(s): 19
+    motif(s): RCMC
+>DRAMP00710_1
+ (sequence 32)
+    start position(s): 40
+    motif(s): KCCC
+>DRAMP00499_1
+ (sequence 56)
+    start position(s): 49
+    motif(s): KCCC
+>DRAMP00510_1
+ (sequence 86)
+    start position(s): 46
+    motif(s): RCCC
+>DRAMP00553_1
+ (sequence 97)
+    start position(s): 55
+    motif(s): KCCC
+>DRAMP00522_1
+ (sequence 99)
+    start position(s): 66
+    motif(s): RCCC
+>AP03107_1
+ (sequence 136)
+    start position(s): 131
+    motif(s): KCCC
+>DRAMP00563_1
+ (sequence 146)
+    start position(s): 54
+    motif(s): HCCC
+>DRAMP00541_1
+ (sequence 155)
+    start position(s): 43
+    motif(s): RCCC
+>B2MW54_1
+ (sequence 160)
+    start position(s): 62
+    motif(s): RCMC
+>DRAMP00550_1
+ (sequence 161)
+    start position(s): 51
+    motif(s): RCCC
+>DRAMP00505_1
+ (sequence 198)
+    start position(s): 50
+    motif(s): HCCC
+>DRAMP00552_1
+ (sequence 217)
+    start position(s): 57
+    motif(s): KCCC
+>DRAMP00587_1
+ (sequence 238)
+    start position(s): 45
+    motif(s): KCMC
+>DRAMP00503_1
+ (sequence 256)
+    start position(s): 51
+    motif(s): KCCC
+>DRAMP00565_1
+ (sequence 271)
+    start position(s): 53
+    motif(s): HCCC
+>DRAMP00561_1
+ (sequence 313)
+    start position(s): 53
+    motif(s): KCCC
+>DRAMP00512_1
+ (sequence 315)
+    start position(s): 54
+    motif(s): RCCC
+>DRAMP00526_1
+ (sequence 368)
+    start position(s): 56
+    motif(s): KCCC
+19 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+MOTIF:  basic sulfur sulfur C
+******
+>6332_1
+ (sequence 26)
+    start position(s): 19
+    motif(s): RCMC
+>DRAMP00710_1
+ (sequence 32)
+    start position(s): 40
+    motif(s): KCCC
+>DRAMP00499_1
+ (sequence 56)
+    start position(s): 49
+    motif(s): KCCC
+>DRAMP00510_1
+ (sequence 86)
+    start position(s): 46
+    motif(s): RCCC
+>DRAMP00553_1
+ (sequence 97)
+    start position(s): 55
+    motif(s): KCCC
+>DRAMP00522_1
+ (sequence 99)
+    start position(s): 66
+    motif(s): RCCC
+>AP03107_1
+ (sequence 136)
+    start position(s): 131
+    motif(s): KCCC
+>DRAMP00563_1
+ (sequence 146)
+    start position(s): 54
+    motif(s): HCCC
+>DRAMP00541_1
+ (sequence 155)
+    start position(s): 43
+    motif(s): RCCC
+>B2MW54_1
+ (sequence 160)
+    start position(s): 62
+    motif(s): RCMC
+>DRAMP00550_1
+ (sequence 161)
+    start position(s): 51
+    motif(s): RCCC
+>DRAMP00505_1
+ (sequence 198)
+    start position(s): 50
+    motif(s): HCCC
+>DRAMP00552_1
+ (sequence 217)
+    start position(s): 57
+    motif(s): KCCC
+>DRAMP00587_1
+ (sequence 238)
+    start position(s): 45
+    motif(s): KCMC
+>DRAMP00503_1
+ (sequence 256)
+    start position(s): 51
+    motif(s): KCCC
+>DRAMP00565_1
+ (sequence 271)
+    start position(s): 53
+    motif(s): HCCC
+>DRAMP00561_1
+ (sequence 313)
+    start position(s): 53
+    motif(s): KCCC
+>DRAMP00512_1
+ (sequence 315)
+    start position(s): 54
+    motif(s): RCCC
+>DRAMP00526_1
+ (sequence 368)
+    start position(s): 56
+    motif(s): KCCC
+19 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+MOTIF:  basic sulfur C sulfur
+******
+>DRAMP00710_1
+ (sequence 32)
+    start position(s): 40
+    motif(s): KCCC
+>DRAMP00499_1
+ (sequence 56)
+    start position(s): 49
+    motif(s): KCCC
+>DRAMP00510_1
+ (sequence 86)
+    start position(s): 46
+    motif(s): RCCC
+>DRAMP00553_1
+ (sequence 97)
+    start position(s): 55
+    motif(s): KCCC
+>DRAMP00522_1
+ (sequence 99)
+    start position(s): 66
+    motif(s): RCCC
+>AP03107_1
+ (sequence 136)
+    start position(s): 131
+    motif(s): KCCC
+>U4N938_1
+ (sequence 139)
+    start position(s): 221 377
+    motif(s): RMCM KMCM
+>DRAMP00563_1
+ (sequence 146)
+    start position(s): 54
+    motif(s): HCCC
+>DRAMP00541_1
+ (sequence 155)
+    start position(s): 43
+    motif(s): RCCC
+>DRAMP00550_1
+ (sequence 161)
+    start position(s): 51
+    motif(s): RCCC
+>AP02095_1
+ (sequence 188)
+    start position(s): 91
+    motif(s): KCCM
+>DRAMP00505_1
+ (sequence 198)
+    start position(s): 50
+    motif(s): HCCC
+>DRAMP00552_1
+ (sequence 217)
+    start position(s): 57
+    motif(s): KCCC
+>DRAMP00503_1
+ (sequence 256)
+    start position(s): 51
+    motif(s): KCCC
+>DRAMP00565_1
+ (sequence 271)
+    start position(s): 53
+    motif(s): HCCC
+>DRAMP00561_1
+ (sequence 313)
+    start position(s): 53
+    motif(s): KCCC
+>DRAMP00512_1
+ (sequence 315)
+    start position(s): 54
+    motif(s): RCCC
+>DRAMP00526_1
+ (sequence 368)
+    start position(s): 56
+    motif(s): KCCC
+18 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+MOTIF:  G K C aliphatic
+******
+>DRAMP00562_1
+ (sequence 9)
+    start position(s): 43
+    motif(s): GKCI
+>DRAMP00664_1
+ (sequence 18)
+    start position(s): 17
+    motif(s): GKCG
+>DRAMP00729_1
+ (sequence 29)
+    start position(s): 67
+    motif(s): GKCI
+>DRAMP00487_1
+ (sequence 42)
+    start position(s): 30
+    motif(s): GKCI
+>P43082_1
+ (sequence 52)
+    start position(s): 133
+    motif(s): GKCL
+>DRAMP00718_1
+ (sequence 55)
+    start position(s): 58
+    motif(s): GKCV
+>DRAMP00499_1
+ (sequence 56)
+    start position(s): 24
+    motif(s): GKCA
+>DRAMP00663_1
+ (sequence 94)
+    start position(s): 14
+    motif(s): GKCG
+>DRAMP00495_1
+ (sequence 122)
+    start position(s): 37
+    motif(s): GKCL
+>DRAMP00539_1
+ (sequence 200)
+    start position(s): 30
+    motif(s): GKCL
+>DRAMP00674_1
+ (sequence 204)
+    start position(s): 15
+    motif(s): GKCG
+>DRAMP00590_1
+ (sequence 210)
+    start position(s): 24
+    motif(s): GKCV
+>DRAMP00497_1
+ (sequence 232)
+    start position(s): 45
+    motif(s): GKCV
+>DRAMP00716_1
+ (sequence 257)
+    start position(s): 24
+    motif(s): GKCV
+>DRAMP00492_1
+ (sequence 286)
+    start position(s): 21
+    motif(s): GKCL
+>DRAMP00591_1
+ (sequence 295)
+    start position(s): 19
+    motif(s): GKCI
+>DRAMP00665_1
+ (sequence 317)
+    start position(s): 13
+    motif(s): GKCG
+17 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+MOTIF:  aromatic C basic aliphatic
+******
+>Q5WR03_1
+ (sequence 8)
+    start position(s): 81
+    motif(s): YCHG
+>DRAMP00476_1
+ (sequence 10)
+    start position(s): 52
+    motif(s): FCKL
+>P82358_1
+ (sequence 20)
+    start position(s): 37
+    motif(s): YCRG
+>DRAMP03728_1
+ (sequence 38)
+    start position(s): 69
+    motif(s): YCHG
+>A0A8K1YTU0_1
+ (sequence 47)
+    start position(s): 45
+    motif(s): FCKG
+>F1DFM9_1
+ (sequence 60)
+    start position(s): 77
+    motif(s): FCRL
+>DRAMP00736_1
+ (sequence 64)
+    start position(s): 56
+    motif(s): YCKA
+>4296_1
+ (sequence 92)
+    start position(s): 6
+    motif(s): FCHL
+>5744_1
+ (sequence 129)
+    start position(s): 15
+    motif(s): YCRV
+>B2MW54_1
+ (sequence 160)
+    start position(s): 57
+    motif(s): FCRG
+>Q62714_1
+ (sequence 185)
+    start position(s): 65
+    motif(s): YCRI
+>6320_1
+ (sequence 192)
+    start position(s): 24
+    motif(s): YCRG
+>DRAMP00696_1
+ (sequence 213)
+    start position(s): 90
+    motif(s): YCKL
+>DRAMP00689_1
+ (sequence 242)
+    start position(s): 7
+    motif(s): YCKV
+>P83943_1
+ (sequence 275)
+    start position(s): 32
+    motif(s): FCRV
+>5726_1
+ (sequence 284)
+    start position(s): 58
+    motif(s): FCHG
+>DRAMP00492_1
+ (sequence 286)
+    start position(s): 26
+    motif(s): YCHA
+17 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+MOTIF:  basic C C sulfur
+******
+>DRAMP00710_1
+ (sequence 32)
+    start position(s): 40
+    motif(s): KCCC
+>DRAMP00499_1
+ (sequence 56)
+    start position(s): 49
+    motif(s): KCCC
+>DRAMP00510_1
+ (sequence 86)
+    start position(s): 46
+    motif(s): RCCC
+>DRAMP00553_1
+ (sequence 97)
+    start position(s): 55
+    motif(s): KCCC
+>DRAMP00522_1
+ (sequence 99)
+    start position(s): 66
+    motif(s): RCCC
+>AP03107_1
+ (sequence 136)
+    start position(s): 131
+    motif(s): KCCC
+>DRAMP00563_1
+ (sequence 146)
+    start position(s): 54
+    motif(s): HCCC
+>DRAMP00541_1
+ (sequence 155)
+    start position(s): 43
+    motif(s): RCCC
+>DRAMP00550_1
+ (sequence 161)
+    start position(s): 51
+    motif(s): RCCC
+>AP02095_1
+ (sequence 188)
+    start position(s): 91
+    motif(s): KCCM
+>DRAMP00505_1
+ (sequence 198)
+    start position(s): 50
+    motif(s): HCCC
+>DRAMP00552_1
+ (sequence 217)
+    start position(s): 57
+    motif(s): KCCC
+>DRAMP00503_1
+ (sequence 256)
+    start position(s): 51
+    motif(s): KCCC
+>DRAMP00565_1
+ (sequence 271)
+    start position(s): 53
+    motif(s): HCCC
+>DRAMP00561_1
+ (sequence 313)
+    start position(s): 53
+    motif(s): KCCC
+>DRAMP00512_1
+ (sequence 315)
+    start position(s): 54
+    motif(s): RCCC
+>DRAMP00526_1
+ (sequence 368)
+    start position(s): 56
+    motif(s): KCCC
+17 positive sequences contain the motif
+
+0 negative sequences contain the motif
+
+
+
+
+************************************
+
+COVERAGE
+********
+DRAMP00499_1 (7 motifs match)
+DRAMP00512_1 (6 motifs match)
+DRAMP00503_1 (6 motifs match)
+DRAMP00522_1 (6 motifs match)
+AP02095_1 (5 motifs match)
+DRAMP00553_1 (5 motifs match)
+DRAMP00505_1 (5 motifs match)
+AP03107_1 (5 motifs match)
+DRAMP00565_1 (5 motifs match)
+DRAMP00552_1 (5 motifs match)
+DRAMP00550_1 (5 motifs match)
+DRAMP00510_1 (5 motifs match)
+DRAMP00710_1 (5 motifs match)
+DRAMP00541_1 (5 motifs match)
+DRAMP00526_1 (5 motifs match)
+DRAMP00563_1 (5 motifs match)
+DRAMP00561_1 (5 motifs match)
+DRAMP00492_1 (4 motifs match)
+B2MW54_1 (4 motifs match)
+DRAMP00587_1 (3 motifs match)
+6332_1 (3 motifs match)
+DRAMP00674_1 (2 motifs match)
+DRAMP00718_1 (2 motifs match)
+DRAMP00665_1 (2 motifs match)
+DRAMP00497_1 (2 motifs match)
+DRAMP00689_1 (2 motifs match)
+DRAMP00716_1 (2 motifs match)
+DRAMP00664_1 (2 motifs match)
+DRAMP00729_1 (2 motifs match)
+DRAMP00663_1 (2 motifs match)
+DRAMP00495_1 (2 motifs match)
+DRAMP00508_1 (2 motifs match)
+DRAMP00590_1 (2 motifs match)
+DRAMP00487_1 (2 motifs match)
+DRAMP00562_1 (2 motifs match)
+P43082_1 (2 motifs match)
+DRAMP00539_1 (2 motifs match)
+DRAMP00591_1 (2 motifs match)
+U4N938_1 (2 motifs match)
+11401_1 (1 motifs match)
+E1UYT9_1 (1 motifs match)
+DRAMP00485_1 (1 motifs match)
+DRAMP00558_1 (1 motifs match)
+A0A8K1YTT9_1 (1 motifs match)
+Q5WR03_1 (1 motifs match)
+5792_1 (1 motifs match)
+5726_1 (1 motifs match)
+Q28880_1 (1 motifs match)
+A0A0B4JDK1_1 (1 motifs match)
+P83943_1 (1 motifs match)
+CAMPSQ4602_1 (1 motifs match)
+6320_1 (1 motifs match)
+DRAMP00610_1 (1 motifs match)
+DRAMP00682_1 (1 motifs match)
+DRAMP00535_1 (1 motifs match)
+DRAMP00524_1 (1 motifs match)
+DRAMP00476_1 (1 motifs match)
+5744_1 (1 motifs match)
+DRAMP03728_1 (1 motifs match)
+AP02694_1 (1 motifs match)
+DRAMP00670_1 (1 motifs match)
+DRAMP00698_1 (1 motifs match)
+4296_1 (1 motifs match)
+A0A7M7H308_1 (1 motifs match)
+A0A8K1YTU0_1 (1 motifs match)
+P82358_1 (1 motifs match)
+DRAMP00696_1 (1 motifs match)
+F1DFM9_1 (1 motifs match)
+P0DUJ6_1 (1 motifs match)
+Q9FIW1_1 (1 motifs match)
+Q62714_1 (1 motifs match)
+DRAMP00632_1 (1 motifs match)
+DRAMP00736_1 (1 motifs match)
+DRAMP00440_1 (1 motifs match)
+AP02520_1 (1 motifs match)
+P85213_1 (1 motifs match)
+DRAMP00621_1 (1 motifs match)
+
+77 sequences covered in total

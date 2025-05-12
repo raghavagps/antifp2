@@ -1,0 +1,25 @@
+MERCI - Summary of options:
+ -p    ../antifp2/antifp2_positive.fasta
+ -n    ../antifp2/antifp2_nagative.fasta
+ -k 	  8
+ -fp   10
+ -fn   0
+ -o    ../antifp2/antifp2_positive_k8_fp10_KR
+ -l    10000
+ -s    10000
+ -c    KOOLMAN-ROHM
+ -g    0
+ -gl   1
+ -para 0
+
+
+Motifs:
+ aliphatic K C aliphatic
+ G neutral C aliphatic
+ basic C sulfur sulfur
+ basic C sulfur C
+ basic sulfur sulfur C
+ basic sulfur C sulfur
+ G K C aliphatic
+ aromatic C basic aliphatic
+ basic C C sulfur
