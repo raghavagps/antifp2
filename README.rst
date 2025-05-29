@@ -47,8 +47,8 @@ Clone this repository:
 
 .. code-block:: bash
 
-    python -m venv venv
-    source venv/bin/activate
+   conda env create -f environment.yml
+   conda activate antifp2
 
 Scripts and Usage
 -----------------
@@ -58,7 +58,7 @@ Scripts and Usage
 
 .. code-block:: bash
 
-    python antifp2_ESM2_pred.py --fasta input.fasta --output esm2_results.csv
+    python3 antifp2_ESM2.py --fasta input.fasta --output esm2_results.csv
 
 **Arguments:**
 
@@ -78,87 +78,90 @@ A CSV file with the following columns:
 
 .. code-block:: bash
 
-    python antifp2_ESM2_pred.py --help
+    python3 antifp2_ESM2.py --help
 
 2. ESM2 + BLAST + MERCI Prediction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
-    python ESM2_BLAST_MOTIF_CMD.py\
+    python3 antifp2_ESM_blast.py \
         --fasta input.fasta \
-        --output combo_results.csv \
-        --blast blast_results.tsv \
-        --merci motif_results.locate \
-        --threshold 0.5
+        --outdir output_directory \
+        --threshold 0.5 \
+        --no-cleanup
 
 **Arguments:**
 
 - ``--fasta``: Input FASTA file containing protein sequences.
-- ``--output``: Output CSV file to save predictions.
-- ``--blast``: BLAST output in TSV format (qseqid sseqid ...).
-- ``--merci``: MERCI motif `.locate` file.
-- ``--threshold``: (Optional) Base threshold for classifier (default: 0.5).
+- ``--outdir``: Output directory to save predictions and intermediate files (optional; defaults to input FASTA directory).
+- ``--threshold``: Classification threshold (default: 0.5).
+- ``--no-cleanup``: Flag to keep intermediate files like BLAST and MERCI outputs.
 
-**Output:**
+**Description:**
 
-A CSV file with the following columns:
+This script runs the fine-tuned ESM2 model to predict antifungal proteins, then adjusts predictions based on BLAST and MERCI motif hits:
 
-- ``ID``: Sequence identifier.
-- ``esm2_probability``: Predicted probability from ESM2 model.
-- ``adjusted_probability``: Probability adjusted based on BLAST and MERCI hits.
-- ``prediction``: Final binary prediction (1 for antifungal, 0 for non-antifungal).
+- Filters sequences to keep lengths between 50 and 3000 and only standard amino acids.
+- Runs MERCI motif scanning and BLASTp search against a configured database.
+- Adjusts probabilities by adding +0.5 for BLAST matches to known positives and +0.5 for motif hits.
+- Clips combined probabilities between 0 and 1.
+- Outputs a CSV file with columns: ``ID``, ``probability``, ``blast_adjustment``, ``motif_adjustment``, ``combined``, ``prediction``.
 
-**Scoring Rules:**
+**Outputs:**
 
-- **ESM2 probability** is first calculated using the fine-tuned classifier.
-- **BLAST match** to a known positive adds +0.5 to the probability.
-- **MERCI motif hit** adds +0.5 to the probability.
-- **Final prediction** = 1 if adjusted probability ≥ threshold, else 0.
+- ``<prefix>_predictions.csv``: Final prediction CSV file with adjusted probabilities and binary predictions.
+- ``rejected_log.txt``: Log of sequences rejected during filtering.
 
-**Help:**
+**Example:**
 
 .. code-block:: bash
 
-    python ESM2_BLAST_MOTIF_CMD.py --help
+    python antifp2_ESM_blast.py --fasta proteins.fasta --outdir results --threshold 0.6
+
 
 3. MetaPipeline: Prokka + ESM2 Prediction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
-    python meta_pipeline.py \
+    python3 meta_pipeline.py \
         --contigs AM09.contigs.fa \
-        --output metapred.csv \
-        --prokka_dir tmp_prokka \
-        --threshold 0.5
+        --outdir results_dir \
+        --threshold 0.5 \
+        --threads 8
 
 **Arguments:**
 
 - ``--contigs``: Input contigs FASTA file.
-- ``--output``: Output CSV file to save predictions.
-- ``--prokka_dir``: Directory to store Prokka annotations.
+- ``--outdir``: Output directory to save prediction results and intermediate files.
 - ``--threshold``: (Optional) Classification threshold (default: 0.5).
+- ``--threads``: (Optional) Number of threads to use for Prokka (default: all available).
+- ``--no-cleanup``: (Optional) Retain Prokka intermediate files.
+- ``--metagenome``: (Optional) Enable Prokka's metagenome mode.
 
 **Workflow:**
 
-1. **Prokka Annotation**: Annotates contigs to predict protein-coding sequences.
-2. **Sequence Filtering**: Removes sequences with non-standard amino acids and those shorter than 50 amino acids.
-3. **ESM2 Prediction**: Classifies the filtered protein sequences using the fine-tuned ESM2 model.
+1. **Prokka Annotation**: Annotates input contigs to predict coding sequences.
+2. **Sequence Filtering**: Filters out proteins:
+   - Shorter than 50 or longer than 3000 amino acids.
+   - Containing non-standard amino acids.
+3. **Prediction**: Runs the fine-tuned ESM2 model on valid sequences.
+4. **Extraction**: Saves predicted antifungal sequences to a FASTA file.
 
-**Output:**
+**Outputs (in ``--outdir``):**
 
-A CSV file with the following columns:
-
-- ``ID``: Sequence identifier.
-- ``probability``: Predicted probability of being an antifungal protein.
-- ``prediction``: Binary prediction (1 for antifungal, 0 for non-antifungal) based on the threshold.
+- ``*_metapred.csv``: CSV file with prediction results:
+  - ``ID``, ``probability``, ``prediction``.
+- ``*_antifp2.fasta``: FASTA file of positively predicted antifungal proteins.
+- ``rejected_log.txt``: Log of sequences excluded during filtering.
 
 **Help:**
 
 .. code-block:: bash
 
-    python meta_pipeline.py --help
+    python3 meta_pipeline.py --help
+
 
 Citation
 --------
@@ -186,4 +189,8 @@ If you use this tool, please cite the following resources:
   Vens, C., Rosso, M.N., & Danchin, E.G.J. (2011). Identifying discriminative classification-based motifs in biological sequences. *Bioinformatics*, 27(9), 1231–1238.  
   DOI: https://doi.org/10.1093/bioinformatics/btr110
 
+- **SeqKit**:
+
+  Shen, W., Le, S., Li, Y., & Hu, F. (2016). SeqKit: A cross-platform and ultrafast toolkit for FASTA/Q file manipulation. *PLoS ONE*, 11(10), e0163962.  
+  DOI: https://doi.org/10.1371/journal.pone.0163962
 
