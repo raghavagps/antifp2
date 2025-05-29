@@ -4,7 +4,10 @@
 **AntiFP2** is a tool for the prediction of antifungal proteins using a fine-tuned [ESM2](https://github.com/facebookresearch/esm) language model, optionally enhanced by post-prediction adjustment with **BLAST** and **MERCI** motif detection.
 
 This pipeline combines deep learning-based embeddings with classical bioinformatics methods for improved reliability in antifungal protein prediction.
-
+.. image:: https://img.shields.io/badge/model-huggingface-blue.svg
+   :target: https://huggingface.co/raghavagps-group/antifp2
+.. image:: https://img.shields.io/badge/license-GPLv3-green.svg
+   :target: https://www.gnu.org/licenses/gpl-3.0
 ---
 
 ## 🚀 Features
