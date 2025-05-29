@@ -104,7 +104,8 @@ This script runs the fine-tuned ESM2 model to predict antifungal proteins, then 
 
 - Filters sequences to keep lengths between 50 and 3000 and only standard amino acids.
 - Runs MERCI motif scanning and BLASTp search against a configured database.
-- Adjusts probabilities by adding +0.5 for BLAST matches to known positives and +0.5 for motif hits.
+- Adjusts probabilities by adding +0.5 for BLAST matches to known positives and reducing -5 for BLAST matches to known negatives 
+- Adjusts probabilities by adding +0.5 for motif hits.
 - Clips combined probabilities between 0 and 1.
 - Outputs a CSV file with columns: ``ID``, ``probability``, ``blast_adjustment``, ``motif_adjustment``, ``combined``, ``prediction``.
 
