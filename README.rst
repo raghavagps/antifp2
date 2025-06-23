@@ -161,7 +161,7 @@ This script runs the fine-tuned ESM2 model to predict antifungal proteins, then 
 
 .. code-block:: bash
 
-    python3 meta_pipeline.py --help
+    python3 antifp2_meta.py --help
 
 
 Citation
