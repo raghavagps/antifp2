@@ -126,8 +126,8 @@ This script runs the fine-tuned ESM2 model to predict antifungal proteins, then 
 
 .. code-block:: bash
 
-    python3 meta_pipeline.py \
-        --contigs AM09.contigs.fa \
+    python3 antifp2_meta.py \
+        --contigs contigs.fa \
         --outdir results_dir \
         --threshold 0.5 \
         --threads 8
