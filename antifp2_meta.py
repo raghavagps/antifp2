@@ -153,6 +153,7 @@ def main():
     parser.add_argument("--threads", type=int, default=multiprocessing.cpu_count(), help="Threads for Prokka")
     parser.add_argument("--no-cleanup", action="store_true", help="Keep intermediate files (Prokka)")
     parser.add_argument("--metagenome", action="store_true", help="Enable Prokka metagenome mode")
+    args = parser.parse_args()
 
     contigs_path = Path(args.contigs)
     contig_basename = contigs_path.stem
