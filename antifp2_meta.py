@@ -30,7 +30,7 @@ class ProteinClassifier(torch.nn.Module):
         return logits, embeddings
 
 
-def run_prokka(contigs_path, prokka_dir, threads):
+def run_prokka(contigs_path, prokka_dir, threads, metagenome=False):
     print(f"🚀 Running Prokka with {threads} threads...")
     cmd = [
         "prokka",
@@ -44,6 +44,8 @@ def run_prokka(contigs_path, prokka_dir, threads):
         "--cpus", str(threads),
         str(contigs_path)
     ]
+    if metagenome:
+        cmd.append("--metagenome")
     subprocess.run(cmd, check=True)
     faa_file = prokka_dir / "annotation.faa"
     if not faa_file.exists():
@@ -150,7 +152,7 @@ def main():
     parser.add_argument("--threshold", type=float, default=0.5, help="Classification threshold (default: 0.5)")
     parser.add_argument("--threads", type=int, default=multiprocessing.cpu_count(), help="Threads for Prokka")
     parser.add_argument("--no-cleanup", action="store_true", help="Keep intermediate files (Prokka)")
-    args = parser.parse_args()
+    parser.add_argument("--metagenome", action="store_true", help="Enable Prokka metagenome mode")
 
     contigs_path = Path(args.contigs)
     contig_basename = contigs_path.stem
@@ -163,7 +165,7 @@ def main():
 
     temp_dir = tempfile.mkdtemp()
     try:
-        faa_file = run_prokka(contigs_path, prokka_dir, threads=args.threads)
+        faa_file = run_prokka(contigs_path, prokka_dir, threads=args.threads, metagenome=args.metagenome)
         positive_ids = predict_sequences(faa_file, output_csv, threshold=args.threshold)
         extract_positive_sequences(faa_file, positive_ids, output_fasta)
 
@@ -180,4 +182,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
