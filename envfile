@@ -1,9 +1,9 @@
 # Path information for BLAST and MERCI commands
 # Users can modify these paths according to their system setup
 
-BLAST_ubuntu= ../blast_db/ubuntu/blastp
-BLAST_windows= ../blast_db/windows/blastp.exe
-BLAST_macos= ../blast_db/macos/blastp
-BLAST_database= ../blast_db/antifp2
-MERCI= ../MERCI/MERCI_motif_locator.pl
-MERCI_motif_file= ../MERCI/antifp2_positive_k8_fp10_KR
+BLAST_ubuntu= ./blast_db/ubuntu/blastp
+BLAST_windows= ./blast_db/windows/blastp.exe
+BLAST_macos= ./blast_db/macos/blastp
+BLAST_database= ./blast_db/antifp2
+MERCI= ./MERCI/MERCI_motif_locator.pl
+MERCI_motif_file= ./MERCI/antifp2_positive_k8_fp10_KR
